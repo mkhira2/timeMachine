@@ -53,15 +53,25 @@ var homePage = React.createClass({
 	render: function() {
 		return (
 			<div className="homePage">
-				<h1>{this.state.date}</h1>
 				<h2>Back to the Time Machine</h2>
+				<h1>{this.state.date}</h1>
 					<div className="navBar">
-						<button className='past' onClick={this._decrease}>PAST</button>
-						<button className='stop' onClick={this._stop}>OH GOD MAKE IT STOP</button>
-						<button className='future' onClick={this._increase}>FUTURE</button>
-						<div className="home">
-							<button className='home' onClick={this._goHome}>return to present time</button>
+						<div>
+							<button className='past' onClick={this._decrease}>PAST</button>
+							<p>relive your mistakes</p>
 						</div>
+						<div>
+							<button className='stop' onClick={this._stop}>STOP</button>
+							<p>oh god make it stop</p>
+						</div>
+						<div>
+							<button className='future' onClick={this._increase}>FUTURE</button>
+							<p>look to the future</p>
+						</div>
+						</div>
+						<div className="home">
+							<button className='home' onClick={this._goHome}>return to home time</button>
+							<p>this isnt kansas anymore</p>
 					</div>
 			</div>
 		)

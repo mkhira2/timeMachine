@@ -1,10 +1,11 @@
 * {
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: 'Oswald', sans-serif;
 	box-sizing: border-box;
 }
 
 h1 {
-	font-size: 60px;
+	font-size: 80px;
+	margin: 0;
 }
 
 h2 {
@@ -19,9 +20,16 @@ h1, h2 {
 
 .homePage {
 	background: orangered;
+	padding-bottom: 20px;
 }
 
 .navBar {
+	text-align: center;
+	display: flex;
+	justify-content: center;
+}
+
+.home {
 	text-align: center;
 }
 
@@ -31,15 +39,17 @@ button {
 	background: silver;
 	color: orangered;
 	font-weight: bold;
-	margin: 50px;
+	margin: 50px 50px 0 50px;
 	font-size: 20px;
 	vertical-align: top;
 	border: 2px solid blue;
+	border-radius: 50%;
 }
 
 button:focus {
 	background: white;
 	color: gold;
+	outline: 0;
 }
 
 button:hover {
