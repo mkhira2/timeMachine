@@ -4,6 +4,8 @@ import Backbone from 'backbone'
 import init from './init'
 import HomePage from '../views/homePage'
 
+
+// renders HomePage to the DOM
 var app = function() {
 	ReactDOM.render(<HomePage />, document.querySelector('.container'))
 }
