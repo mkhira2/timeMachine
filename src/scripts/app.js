@@ -2,11 +2,12 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import Backbone from 'backbone'
 import init from './init'
+import HomePage from '../views/homePage'
 
-
-const app = function() {
-  document.querySelector('.container').innerHTML = `<h1>timeMachine</h1>`
+var app = function() {
+	ReactDOM.render(<HomePage />, document.querySelector('.container'))
 }
+
 
 // x..x..x..x..x..x..x..x..x..x..x..x..x..x..x..x..
 // NECESSARY FOR USER FUNCTIONALITY. DO NOT CHANGE. 

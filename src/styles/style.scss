@@ -4,7 +4,45 @@
 }
 
 h1 {
-	font-size: 300px;
+	font-size: 60px;
+}
+
+h2 {
+	font-size: 40px;
+}
+
+h1, h2 {
+	text-shadow: 1.5px 1.5px blue;
 	text-align: center;
-	color: fuchsia;
+	color: gold;
+}
+
+.homePage {
+	background: orangered;
+}
+
+.navBar {
+	text-align: center;
+}
+
+button {
+	height: 150px;
+	width: 150px;
+	background: silver;
+	color: orangered;
+	font-weight: bold;
+	margin: 50px;
+	font-size: 20px;
+	vertical-align: top;
+	border: 2px solid blue;
+}
+
+button:focus {
+	background: white;
+	color: gold;
+}
+
+button:hover {
+	cursor: pointer;
+	border: 4px solid blue;
 }
